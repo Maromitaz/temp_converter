@@ -1,2 +1,4 @@
-$CC = "-O2 -Wall -Wextra"
-gcc ./src/main.c $CC -o main 
+$CC = gcc
+$CARGS = "-O2 -Wall -Wextra"
+
+$CC ./src/main.c $CARGS -o main 
